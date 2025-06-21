@@ -1,13 +1,12 @@
 # Candy-Classification-YOLOv11
 
-A focused Python project that:
+A focused Computer Vision project that:
 
-- **Loads & inspects** the Candy dataset (features like chocolate, fruity, caramel, sugar percent, price, etc.)  
-- **Preprocesses** data (handling missing values, scaling numeric features, encoding categorical variables)  
-- **Splits** into training and test sets for robust evaluation  
-- **Trains & tunes** multiple classifiers (e.g., Logistic Regression, Random Forest, XGBoost)  
-- **Evaluates** models with accuracy, precision/recall, and confusion matrices  
-- **Provides** a Jupyter notebook showcasing EDA, feature importance analysis, model comparison, and final predictions  
+- Implements object detection on custom candy images using YOLOv8  
+- Organizes images and annotations in YOLO format  
+- Provides training (`train.py`) and inference (`detect.py`) scripts  
+- Includes a Jupyter notebook demo of training and results  
+- Outputs bounding boxes with candy type labels and confidence scores  
 
 
 
